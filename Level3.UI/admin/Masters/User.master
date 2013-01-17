@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<ctrltt:Header ID="Header1" runat="server">
+</ctrltt:Header>
+<ctrl:BasicScript ID="BasicScript1" runat="server" ></ctrl:BasicScript>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/redmond/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('body').layout({ applyDefaultStyles: false });
+    $(".tn-collapsible").collapsibleBox();
+});
+</script>
+<body class="tn-page-bg" <asp:ContentPlaceHolder runat="server" ID="setPageID" />>
+    <div class="ui-layout-center">
+        <div class="tn-main">
+            <div class="tn-head">
+                <div class="tn-border-gray tn-border-bottom">
+                    <asp:ContentPlaceHolder runat="server" ID="operationContent" />
+                    <div class="tn-pagename">
+                        <h1 class="tn-helper-reset tn-text-heading">
+                            <asp:ContentPlaceHolder runat="server" ID="pageNameContent" />
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="tn-body">
+                <asp:ContentPlaceHolder runat="server" ID="wideContent" />
+            </div>
+        </div>
+    </div>
+    <div class="ui-layout-north">
+        <div id="tn-header" class="tn-header-bg">
+            <div class="tn-wrapper">
+             <% Html.RenderPartial("~/admin/Controls/Menus/Header.ascx", ViewData); %>
+                <div class="tn-branding-area">
+                    <div class="tn-wrapper-inner">
+                       <%-- <div id="tn-logo">
+                           <a href="<%=SiteUrls.Instance().Home() %>" id="siteLogo">
+                                <img src="<%=WebUtils.ResolveUrl("~/admin/Images/yyt.png") %>" /></a>
+                        </div>--%>
+                    </div>
+                </div>
+                <div class="tn-nav1-area">
+                    <div class="tn-wrapper-inner tn-helper-clearfix">
+                        <% if (ViewData["ManageMenu"] == null)
+                               ViewData["ManageMenu"] = ManageMenu.UserManage;
+                           Html.RenderPartial("~/admin/Controls/Menus/TabMenu.ascx", ViewData); %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui-layout-west">
+        <div class="tn-sidebar">
+            <asp:ContentPlaceHolder runat="server" ID="HeaderContent" />
+        </div>
+        <div class="tn-footer-legal">
+        </div>
+    </div>
+    
+    
+
+</body>
+</html>

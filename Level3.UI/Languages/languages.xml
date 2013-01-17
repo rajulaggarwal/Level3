@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <language name="简体中文" key="zh-CN" />
+
+<!-- 以后支持以下语言
+  <language name="U.S. English" key="en-US" />
+  <language name="繁體中文" key="zh-TW" />
+-->
+
+</root>

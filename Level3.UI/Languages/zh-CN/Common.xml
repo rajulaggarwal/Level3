@@ -1,0 +1,825 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <resource name = "Label_Type">类型</resource>
+  <resource name = "Label_No">编号</resource>
+  <resource name = "Log_IpAddress">IP地址</resource>
+  <resource name = "Label_MyProfile">我的资料</resource>
+  <resource name = "Label_ChangePassword">修改密码</resource>
+  <resource name = "Label_UserName">用户名</resource>
+  
+  <!-- Role Start-->
+  <resource name="Role_Role">角色</resource>
+  <resource name="Role_Permission">权限</resource>
+  <resource name="Role_RoleManagement">角色管理</resource>
+  <resource name="Role_RolePermissionManagement">角色权限管理</resource>
+  <resource name="Role_AddRole">添加新角色</resource>
+  <resource name="Role_RoleName">角色名称</resource>
+  <resource name="Role_FriendlyRoleName">中文名称</resource>
+  <resource name="Role_DeleteTip">是否删除选中的用户角色</resource>
+  <resource name="Role_EditUser">修改用户</resource>
+  <resource name="Role_UserRole">的角色</resource>
+  <resource name="Role_AddeditRole">添加/修改用户角色</resource>
+  <resource name="Role_FriendlyRoleNameForShow">角色对外显示名称(中文名)</resource>
+
+  <!-- Role End -->
+
+  <!-- Log Start-->
+  <resource name="Log_EventLog">事件日志</resource>
+  <resource name="Log_ApplicationType">应用类型</resource>
+  <resource name="Log_EventType">日志类型</resource>
+  
+  <!-- Log End -->
+  
+  
+    <!-- Navigation Start -->
+    <resource name="Navigation_SiteHome">首页</resource>
+    <resource name="Navigation_CasualLookAt">随便看看</resource>
+    <resource name="Navigation_Manage_Home">后台管理</resource>
+    <resource name="Navigation_ClubDomain_Home">主页</resource>
+    <resource name="Navigation_ClubDomain_Share">分享</resource>
+    <resource name="Navigation_UserDomain_MyHome">个人中心</resource>
+    <resource name="Navigation_UserDomain_Home">主页</resource>
+    <resource name="Navigation_UserDomain_Home_ToOtherUser">主页</resource>
+    <resource name="Navigation_UserDomain_MessageCenter">信息中心</resource>
+    <resource name="Navigation_UserDomain_MessageCenter_KaiXin">消息</resource>
+    <resource name="Navigation_UserDomain_AboutCompany">公司介绍</resource>
+    <resource name="Navigation_UserDomain_UserSetting">设置</resource>
+    <resource name="Navigation_Pattern_MyNavigation">我的{0}</resource>
+    <!-- Navigation End -->
+
+    <!-- Common Start -->
+    <resource name = "Common_All">所有</resource>
+    <resource name = "Common_AnonymousDisplayName">匿名用户</resource>
+    <resource name = "Common_NotSet">未设置</resource>
+    <resource name = "Common_None">无</resource>
+    <resource name = "Common_Colon">：</resource>
+    <resource name = "Common_BrowserTitleSeparator"> - </resource>
+    <resource name = "Common_PagerPreviousButton">上一页</resource>
+    <resource name = "Common_PagerNextButton">下一页</resource>
+    <resource name = "Common_PagerFirstButton">&lt;&lt;</resource>
+    <resource name = "Common_PagerLastButton">&gt;&gt;</resource>
+    <resource name = "Common_Year">年</resource>
+    <resource name = "Common_TodayAt">今天</resource>
+    <resource name = "Common_YesterdayAt">昨天 </resource>
+    <resource name = "Common_GuestDisplayName">游客</resource>
+    <resource name = "Common_ReplyPrepend">Re: </resource>
+    <resource name = "Common_NumberFormat">n0</resource>
+    <resource name = "Common_NumberWhenZero">-</resource>
+    <resource name = "Common_Reply">回复</resource>
+    <resource name = "Common_Yes">是</resource>
+    <resource name = "Common_No">否</resource>
+    <resource name = "Common_AdvancedSearch">高级搜索</resource>
+    <resource name = "Common_ManagerRecommend">管理员推荐</resource>
+    <resource name = "Common_Browse">浏览</resource>
+    <resource name = "Common_UserTag">标签</resource>
+    <resource name = "Common_Category">分类</resource>
+    <resource name = "Common_UserCategory">我的分类</resource>
+    <resource name = "Common_SiteCategory">站点类别</resource>
+    <resource name = "Common_Rating">评价</resource>
+    <resource name = "Common_StarRating">星级评价</resource>
+    <resource name = "Common_Essential">精华</resource>
+    <resource name = "Common_Comment">评论</resource>
+    <resource name = "Common_SetTop">置顶</resource>
+    <resource name = "Common_ManageCategory">分类管理</resource>
+    <resource name = "Common_PleaseChoose">请选择</resource>
+    <resource name = "Common_CommentBody">发表评论</resource>
+    <resource name = "Common_Monday">星期一</resource>
+    <resource name = "Common_Tuesday">星期二</resource>
+    <resource name = "Common_Wednesday">星期三</resource>
+    <resource name = "Common_Thursday">星期四</resource>
+    <resource name = "Common_Friday">星期五</resource>
+    <resource name = "Common_Saturday">星期六</resource>
+    <resource name = "Common_Sunday">星期日</resource>
+    <resource name = "Common_One">一</resource>
+    <resource name = "Common_Two">二</resource>
+    <resource name = "Common_Three">三</resource>
+    <resource name = "Common_Four">四</resource>
+    <resource name = "Common_Five">五</resource>
+    <resource name = "Common_Six">六</resource>
+    <resource name = "Common_Seven">日</resource>
+    <resource name = "Common_NewUserCategory">新建分类</resource>
+    <resource name = "Common_Help">帮助</resource>
+    <resource name = "Common_HavePassword">我有密码</resource>
+    <resource name = "Common_SetEssential">设为精华</resource>
+    <resource name = "Common_CancelEssential">取消精华</resource>
+    <resource name = "Common_CancelPutter">取消置顶</resource>
+    <resource name = "Common_Pattern_SecondsAgo">{0}秒之前</resource>
+    <resource name = "Common_Pattern_MinutelAgo">{0}分钟之前</resource>
+    <resource name = "Common_Pattern_HoursAgo">{0}小时之前</resource>
+    <resource name = "Common_Pattern_DayAgo">{0}天之前</resource>
+    <resource name = "Common_Pattern_WeeksAgo">{0}星期之前</resource>
+    <resource name = "Common_Pattern_MonthsAgo">{0}个月之前</resource>
+    <resource name = "Common_Pattern_YearAgo">{0}年之前</resource>
+    <resource name = "Common_Share">分享</resource>
+    <resource name = "Common_Now">现在</resource>
+    <resource name = "Common_BeforeYesterday">前天</resource>
+    <resource name = "Common_Password">密码</resource>
+    <resource name = "Common_PassAudit">通过审核</resource>
+    <resource name = "Common_PassNoAudit">不通过审核</resource>
+    <resource name = "Common_NotPassAudit">未通过审核</resource>
+    <resource name = "Common_PassSuccess">已通过审核</resource>
+    <resource name = "Common_PassAgain">需再审核</resource>
+    <resource name = "Common_PassPending">待审核</resource>
+
+
+    <resource name = "Common_DefaultTimeFormat">HH:mm</resource>
+    <resource name = "Common_DefaultDateFormat">yyyy-MM-dd</resource>
+    <!-- Common End -->
+
+    <!-- Title Start -->
+    <resource name = "Title_HotTag">热门标签</resource>
+    <resource name = "Title_TagMap">标签地图</resource>
+    <resource name = "Title_RssFeed">Rss订阅</resource>
+    <resource name = "Title_FriendActivity">好友动态</resource>
+    <resource name = "Title_AdditionalOptions">附加选项</resource>
+    <resource name = "Title_AdvancedSettings">高级设置</resource>
+    <resource name = "Title_NewPost">最新发布</resource>
+    <resource name = "Title_PointsTiptop">积分最高</resource>
+    <resource name = "Title_CommentMost">评论最多</resource>
+    <resource name = "Title_BrowseMost">浏览最多</resource>
+    <resource name = "Title_NewComment">最新评论</resource>
+    <resource name = "Title_SelectArea">选择地区</resource>
+    <resource name = "Title_SiteLink">友情链接</resource>
+    <resource name = "Title_ShowExceptionMessage">异常信息页</resource>
+    <resource name = "Title_ModifySiteHome">站点皮肤设置</resource>
+    <resource name = "Title_SiteSuspended">站点暂停公告</resource>
+    <resource name="Title_SiteSuspendedInfo">SpaceBuilder官方网站程序升级，暂时关闭，详情咨询：</resource>
+    <resource name = "Title_ErrorPage">页面不存在！</resource>
+    <resource name = "Title_Error404Page">文件未找到</resource>
+    <resource name = "Title_SiteModifyHome">站点装扮</resource>
+    <resource name = "Title_RecommendationType">推荐类型</resource>
+    <resource name = "Title_HasRecommendedToType">已推荐到类型</resource>
+    <resource name = "Title_Pattern_ViewMyApplication">查看我的{0}</resource>
+    <resource name = "Title_MoreLink">更多友情链接</resource>
+    <resource name = "Title_Calendar">日历</resource>
+    <resource name = "Title_NoSearchResult"> 很抱歉，没有找到符合您搜索条件的结果！</resource>
+    <resource name = "Title_ReturnToSiteCategory"> 归到站点类别</resource>
+    <resource name = "Title_ToMyUserCategory">移到我的分类</resource>
+    <resource name = "Title_StickTags">贴标签</resource>
+    <resource name = "Title_PermissionsSettings">权限设置</resource>
+    <resource name = "Title_PleaseEnterCategory">请输入类别</resource>
+    <resource name = "Title_NotCaseSensitive">不区分大小写</resource>
+    <resource name="Title_UploadAttachmentFromComputer">从电脑上传</resource>
+    <resource name="Title_ManageAttachments">已上传列表</resource>
+    <resource name="Title_Alllarea">所有地区</resource>
+    <resource name="Title_AlllCategory">所有类别</resource>
+    <resource name = "Title_ApplicationNotInstalled">应用未安装，不能访问</resource>
+    <resource name = "Title_ApplicationNotEnabled">应用已禁用，不能访问</resource>
+
+    <!-- Title End -->
+
+    <!-- Action Start -->
+    <resource name = "Action_More">更多</resource>
+    <resource name = "Action_Login">登录</resource>
+    <resource name = "Action_Logout">注销</resource>
+    <resource name = "Action_Help">帮助</resource>
+    <resource name = "Action_Edit">编辑</resource>
+    <resource name = "Action_Delete">删除</resource>
+    <resource name = "Action_View">查看</resource>
+    <resource name = "Action_ViewTagMap">查看标签地图</resource>
+    <resource name = "Action_InvitationFriend">邀请朋友</resource>
+    <resource name = "Action_PrivateMessage">站内信</resource>
+    <resource name = "Action_Invitation">邀请</resource>
+    <resource name = "Action_Notice">通知</resource>
+    <resource name = "Action_SettingsHome">我的账号</resource>
+    <resource name = "Action_Register">注册</resource>
+    <resource name = "Action_Summary">摘要</resource>
+    <resource name = "Action_List">列表</resource>
+    <resource name = "Action_FullText">全文</resource>
+    <resource name = "Action_AddFriend">加为好友</resource>
+    <resource name = "Action_OpenDegreeBatchSet">公开程度批量设置</resource>
+    <resource name = "Action_TagBatchSet">标签批量设置</resource>
+    <resource name = "Action_UserCategoryBatchSet">用户分类批量设置</resource>
+    <resource name = "Action_SiteCategoryBatchSet">站点分类批量设置</resource>
+    <resource name = "Action_Manage">管理</resource>
+    <resource name = "Action_CommentManage">评论管理</resource>
+    <resource name = "Action_BatchManage">批量管理</resource>
+    <resource name = "Action_TagManage">标签管理</resource>
+    <resource name = "Action_InsertEditor">插入编辑器</resource>
+    <resource name = "Action_IntercourseFriend">交个朋友</resource>
+    <resource name = "Action_Return">返回</resource>
+    <resource name = "Action_HideComments">收起评论</resource>
+    <resource name = "Action_SendPrivateMessage">发消息</resource>
+    <resource name = "Action_Accept">接受</resource>
+    <resource name = "Action_Ignore">忽略</resource>
+    <resource name = "Action_ViewClub">浏览群组</resource>
+    <resource name = "Action_ViewEvent">浏览活动</resource>
+    <resource name = "Action_MostArea">更多地区</resource>
+    <resource name="Action_GoHome">回到首页</resource>
+    <resource name="Action_GoPreviousPage">返回上一页</resource>
+    <resource name="Action_CancelPutter">取消置顶</resource>
+    <resource name="Action_AddSmiley">添加表情</resource>
+    <resource name="Action_CreateGroup">创建分组</resource>
+    <resource name="Action_HavePassword">我有密码</resource>
+    <resource name="Action_CreatTag">新建标签</resource>
+    <resource name="Action_DirectLogin">直接登录</resource>
+    <resource name="Action_ReturnList">返回列表</resource>
+    <resource name="Action_GoUpload">继续上传</resource>
+    <resource name="Action_OpenMoreClass">展开更多分类</resource>
+    <resource name="Action_EasyClass">精简分类显示</resource>
+    <resource name="Action_OpenMoreArea">展开更多地区</resource>
+    <resource name="Action_EasyArea">精简地区显示</resource>
+
+    <!-- Action End -->
+
+    <!-- Button Start -->
+    <resource name = "Button_Submit">提交</resource>
+    <resource name = "Button_Cancel">取消</resource>
+    <resource name = "Button_Create">创建</resource>
+    <resource name = "Button_Add">新增</resource>
+    <resource name = "Button_Update">更新</resource>
+    <resource name = "Button_Save">保存</resource>
+    <resource name = "Button_Close">关闭</resource>
+    <resource name = "Button_Remove">移除</resource>
+    <resource name = "Button_Reset">重置</resource>
+    <resource name = "Button_Search">搜索</resource>
+    <resource name = "Button_Send">发送</resource>
+    <resource name = "Button_Enabled">启用</resource>
+    <resource name = "Button_Disabled">禁用</resource>
+    <resource name = "Button_Select">选择</resource>
+    <resource name = "Button_OK">确定</resource>
+    <resource name = "Button_Set">设置</resource>
+    <resource name = "Button_BatchDelete">批量删除</resource>
+    <resource name = "Button_Approve">批准</resource>
+    <resource name = "Button_NoApprove">不批准</resource>
+    <resource name = "Button_OnloadAttachment">上传附件</resource>
+    <resource name = "Button_Report">举报</resource>
+    <resource name = "Button_Processing">正在处理</resource>
+    <resource name = "Button_Upload">上传</resource>
+    <resource name = "Button_MyUserTag">我的标签</resource>
+    <resource name = "Button_Digg">顶</resource>
+    <resource name = "Button_Dugg">已支持</resource>
+
+    <!-- Button End -->
+
+    <!-- Label Start -->
+    <resource name = "Label_ID">ID</resource>
+    <resource name = "Label_Name">名称</resource>
+    <resource name = "Label_Description">描述</resource>
+    <resource name = "Label_Url">Url</resource>
+    <resource name = "Label_Actions">操作</resource>
+    <resource name = "Label_Email">Email</resource>
+    <resource name = "Label_Image">图像</resource>
+    <resource name = "Label_PersonalWebAdress">个人主页</resource>
+    <resource name = "Label_CommonName">姓名</resource>
+    <resource name = "Label_VerifyCode">验证码</resource>
+    <resource name = "Label_Display">显示</resource>
+    <resource name = "Label_Rank">等级</resource>
+    <resource name = "Label_Attachment">附件</resource>
+    <resource name = "Label_KeyWord">关键字</resource>
+    <resource name = "Label_PrivacySetting">隐私设置</resource>
+    <resource name = "Label_PostDate">发布日期</resource>
+    <resource name = "Label_DateCreated">创建日期</resource>
+    <resource name = "Label_Author">作者</resource>
+    <resource name = "Label_Subject">标题</resource>
+    <resource name = "Label_Body">内容</resource>
+    <resource name = "Label_PostSubject">评论标题</resource>
+    <resource name = "Label_BrowseCount">浏览数</resource>
+    <resource name = "Label_UpdateDate">更新日期</resource>
+    <resource name = "Label_IsEnabled">是否启用</resource>
+    <resource name = "Label_Pattern_TotalRecords">(共{0}个)</resource>
+    <resource name="Label_Date">日期</resource>
+    <resource name = "Lable_Accepted">已接受</resource>
+    <resource name="Lable_Ignored">已忽略</resource>
+    <resource name = "Label_SelectAllOrNo">全选</resource>
+    <resource name = "Label_SiteDivisionCategory">站点分类</resource>
+    <resource name = "Label_BatchSetPrivacy">批量设置隐私</resource>
+    <resource name = "Label_Size">大小</resource>
+    <resource name = "Label_IfApproval">是否批准</resource>
+    <resource name = "Label_CommentUser">评论人</resource>
+    <resource name = "Label_CommentDate">评论日期</resource>
+    <resource name = "Label_SetTitlePicture">设为标题图</resource>
+    <resource name="Label_SelectAttachment">选择附件</resource>
+    <resource name = "Label_Rename">重新命名</resource>
+    <resource name="Label_OpenComment">启用评论</resource>
+    <resource name = "Label_Status">状态</resource>
+    <resource name="Label_Point">积分</resource>
+    <resource name="Label_NotDisposed">尚未处理</resource>
+    <resource name = "Label_SortOrder">排序</resource>
+    <resource name = "Label_OrderNO">排序序号</resource>
+    <resource name = "Label_OrderRule">排序规则</resource>
+    <resource name = "Label_PleaseChooseLanguage">请选择语言</resource>
+    <resource name = "Label_YouCan">您可以</resource>
+    <resource name = "Label_IPAddress">IP地址</resource>
+    <resource name = "Label_RecommendationSuject">推荐主题</resource>
+    <resource name = "Label_EndDate">截至时间</resource>
+    <resource name = "Label_Allow">允许</resource>
+    <resource name = "Label_Refuse">拒绝</resource>
+    <resource name = "Label_ExistingAccount">已有帐号？</resource>
+    <resource name="Label_ExperiencePoints">经验值</resource>
+    <!-- Label End -->
+
+    <!-- Config Start -->
+    <resource name = "Config_ApplicationName_User">用户</resource>
+    <resource name = "Config_ApplicationName_Friend">朋友</resource>
+    <resource name = "Config_ApplicationName_Blog">博客</resource>
+    <resource name = "Config_ApplicationName_Photo">相册</resource>
+    <resource name = "Config_ApplicationName_File">文件</resource>
+    <resource name = "Config_ApplicationName_MicroBlog">微博</resource>
+    <resource name = "Config_ApplicationName_News">资讯</resource>
+    <resource name = "Config_ApplicationName_Forum">论坛</resource>
+    <resource name = "Config_ApplicationName_Event">活动</resource>
+    <resource name = "Config_ApplicationName_Club">群组</resource>
+    <resource name = "Config_ApplicationName_Vote">投票</resource>
+    <resource name = "Config_ApplicationName_Share">分享</resource>
+    <resource name = "Config_ApplicationName_Job">求职</resource>
+    <resource name = "Config_ApplicationName_Recruit">招聘</resource>
+    <resource name = "Config_ApplicationName_Listing">招贴</resource>
+    <resource name = "Config_ApplicationName_Reward">问答</resource>
+    <resource name = "Config_SearchTypeName_PersonUser">会员</resource>
+    <resource name = "Config_SearchTypeName_News">资讯</resource>
+    <resource name = "Config_SearchTypeName_Listing">招贴</resource>
+    <resource name = "Config_SearchTypeName_Blog">博客</resource>
+    <resource name = "Config_SearchTypeName_Photo">照片</resource>
+    <resource name = "Config_SearchTypeName_File">文件</resource>
+    <resource name = "Config_SearchTypeName_Event">活动</resource>
+    <resource name = "Config_SearchTypeName_Club">群组</resource>
+    <resource name = "Config_SearchTypeName_Forum">论坛</resource>
+    <resource name = "Config_SearchTypeName_Job">职位</resource>
+    <resource name = "Config_SearchTypeName_Reward">问答</resource>
+    <resource name = "Config_NoticeProcessor_Instation">站内通知</resource>
+    <resource name = "Config_NoticeProcessor_Email">Email通知</resource>
+    <resource name = "Config_MediaTypeName_Video">视频</resource>
+    <resource name = "Config_MediaTypeName_Radio">音乐</resource>
+    <resource name = "Config_MediaTypeName_Website">网址</resource>
+    <!-- Config End -->
+
+    <!-- Enum Start -->
+    <resource name = "Enum_Genders_Male">男</resource>
+    <resource name = "Enum_Genders_Female">女</resource>
+    <resource name = "Enum_Genders_All">不限</resource>
+    <resource name = "Enum_AccountStatuses_All">全部</resource>
+    <resource name = "Enum_AccountStatuses_Approved">已批准</resource>
+    <resource name = "Enum_AccountStatuses_ApprovalPending">待批准</resource>
+    <resource name = "Enum_AccountStatuses_Banned">封禁中</resource>
+    <resource name = "Enum_AccountStatuses_Disapproved">未批准</resource>
+    <resource name = "Enum_AccountStatuses_NotActive">未激活</resource>
+    <resource name = "Enum_AccountStatuses_Again">需再审核</resource>
+
+    <resource name = "Utility_UserBan_Permanent">永久</resource>
+    <resource name = "Utility_UserBan_1Day">1 天</resource>
+    <resource name = "Utility_UserBan_3Days">3 天</resource>
+    <resource name = "Utility_UserBan_5Days">5 天</resource>
+    <resource name = "Utility_UserBan_1Week">1个星期</resource>
+    <resource name = "Utility_UserBan_2Weeks">2个星期</resource>
+    <resource name = "Utility_UserBan_1Month">1 个月</resource>
+    <resource name = "Utility_UserBanReason_Profanity">亵渎</resource>
+    <resource name = "Utility_UserBanReason_Advertising">广告</resource>
+    <resource name = "Utility_UserBanReason_Spam">发垃圾广告</resource>
+    <resource name = "Utility_UserBanReason_Aggresive">恶意攻击他人</resource>
+    <resource name = "Utility_UserBanReason_BadUsername">不雅的用户名</resource>
+    <resource name = "Utility_UserBanReason_BadSignature">恶意的链接或签名档</resource>
+    <resource name = "Utility_UserBanReason_BanDodging">Ban Dodging</resource>
+    <resource name = "Utility_UserBanReason_Other">其他</resource>
+    <resource name = "ImpeachReason_1">内容反动</resource>
+    <resource name = "ImpeachReason_2">内容色情或暴力</resource>
+    <resource name = "ImpeachReason_3">内容侵权</resource>
+    <resource name = "ImpeachReason_4">垃圾广告</resource>
+    <resource name = "ImpeachReason_99">其他</resource>
+    <resource name = "SortOrderDropDownList_Asc">升序</resource>
+    <resource name = "SortOrderDropDownList_Desc">降序</resource>
+    <resource name="Enum_UserPointCategory_BasicPoint">经验值</resource>
+    <resource name="Enum_UserPointCategory_ReportPoint">声望</resource>
+    <resource name="Enum_UserPointCategory_CreditPoint">信誉积分</resource>
+    <resource name="Enum_UserPointCategory_TradePoint">金币</resource>
+    <resource name="Enum_PrivacyStatuses_NeedPassword">凭密码访问</resource>
+    <resource name="Enum_PrivacyStatuses_OnlyFriend">仅好友可见</resource>
+    <resource name="Enum_PrivacyStatuses_Privacy">仅自己可见</resource>
+    <resource name="Enum_PrivacyStatuses_Public">公开</resource>
+    <resource name="Enum_ApprovalStatuses_All">所有状态</resource>
+    <resource name="Enum_ApprovalStatuses_NotApprove">未批准</resource>
+    <resource name="Enum_ApprovalStatuses_IsApproved">已批准</resource>
+    <resource name="Enum_AccountStatuses_Fail">未通过</resource>
+    <resource name="Enum_AccountStatuses_Pending">未审核</resource>
+    <resource name="Enum_AccountStatuses_Success">已通过</resource>
+
+    <resource name="Enum_CommentModerationType_None">不审核任何评论</resource>
+    <resource name="Enum_CommentModerationType_Anonymous">仅审核匿名用户评论</resource>
+    <resource name="Enum_CommentModerationType_All">审核所有评论</resource>
+
+
+
+    <!-- Enum End -->
+
+    <!-- Description Start -->
+    <resource name = "Description_Required">(必填)</resource>
+    <resource name = "Description_Optional">(可选)</resource>
+    <resource name = "Description_Logged">已记录</resource>
+    <resource name = "Description_NotLogged">未记录</resource>
+    <resource name = "Description_NewMessage">新消息</resource>
+    <resource name = "Description_MemoryMyInfo">记住我的信息？</resource>
+    <resource name = "Description_Pattern_WordCountLimit">请您将字数限制在 {0} 以内</resource>
+    <resource name = "Description_CommentAuditinged">该评论已经通过审核</resource>
+    <resource name = "Description_CommentNotAuditing">该评论未通过审核</resource>
+    <resource name = "Description_Pattern_OnloadFileSizeAndType">请将您上传附件的大小限制在 {0} K支持上传的文件类型：{1}</resource>
+    <resource name = "Description_Pattern_ViewUserDomain">查看{0}的个人空间</resource>
+    <resource name = "Description_MustSelect"> (必选)</resource>
+    <resource name="Description_Pattern_RatingUserCount">[{0}人参与评价]</resource>
+    <resource name="Description_ChangeVerificationCodeImage">看不清？</resource>
+    <resource name="Description_ErrorPage1">您访问的网页因未知异常错误无法显示。</resource>
+    <resource name="Description_ErrorPage2">请您确认所输入的网址是否正确。</resource>
+    <resource name="Description_ErrorPage3">可能您要访问的网页地址已经变更。</resource>
+    <resource name="Description_ErrorPage4">如您对此存在任何疑问，请联系我们，谢谢！</resource>
+    <resource name="Description_Error404Page">非常抱歉，无法找到您要访问的网页</resource>
+    <resource name="Description_Error404AdditionalExplain">请您确认所输入的网址是否正确，可能您要访问的网页地址已经变更， 如您对此存在任何疑问，请联系我们，谢谢！</resource>
+    <resource name = "Description_NoRecommendationType">未设置任何推荐类型</resource>
+    <resource name = "Description_NoLaveAnyRecommendationType">已推荐到所有推荐类型</resource>
+    <resource name = "Description_Canceled">自动取消</resource>
+    <resource name = "Description_InputUserTag">按Tab键、空格、逗号输入多个新标签</resource>
+
+    <!-- Description End -->
+
+    <!-- Message Start -->
+    <resource name = "Message_Loading">处理中..</resource>
+    <resource name = "Message_ConfirmDeleteComment">确定要删除该评论吗？</resource>
+    <resource name = "Message_PleaceLogin">请先登录</resource>
+    <resource name = "Message_ThanksForRating">感谢您的评价</resource>
+    <resource name = "Message_ParameterIncorrect">参数不正确</resource>
+    <resource name = "Message_IdentifyingCodeError">验证码填写不正确</resource>
+    <resource name = "Message_Pattern_ConfirmDeleteAttachment">确定删除附件 [{0}] 吗?</resource>
+    <resource name = "Message_PopedomNotComment">您的权限不够，不能评论</resource>
+    <resource name = "Message_LoginRequire">您访问的页面需要登录才能查看</resource>
+    <resource name="Message_ConfirmDeleteWidget">确实要删除该Widget吗？</resource>
+    <resource name="Message_DeleteSuccess">删除成功</resource>
+    <resource name="Message_DeleteFailed">删除失败</resource>
+    <resource name="Message_NoSmileyCategory">没有表情类别</resource>
+    <resource name="Message_ConfirmDeleteRecommendedItem">确定要删除该推荐吗？</resource>
+    <resource name = "Message_Pattern_AnonymousCreateCommentHint">注册用户登录才能发表评论，&lt;a href=&quot;{0}&quot;&gt;登录&lt;/a&gt;或 &lt;a href=&quot;{1}&quot;&gt;注册&lt;/a&gt;</resource>
+    <resource name = "Message_SetSaved">设置已保存</resource>
+    <resource name = "Message_UpdateFailed">更新设置失败，请与管理员联系</resource>
+    <resource name = "Message_NoTags">暂无标签</resource>
+    <resource name = "Message_EnteYourUserName">输入您的用户名，以便与您取得联系！</resource>
+    <resource name = "Message_PasswordErrorReEnter">密码错误，请重新输入</resource>
+    <resource name="Message_Tips">提示</resource>
+    <resource name = "Message_PleaseInstallApplication">请安装应用</resource>
+    <!-- Message End -->
+
+    <!-- Widget Start -->
+    <resource name="Widget_UserPref_Title_DisplayName">标题名称</resource>
+    <resource name="Widget_UserPref_TitleUrl_DisplayName">标题链接</resource>
+    <resource name="Widget_UserPref_TitleUrlTargetBlank_DisplayName">链接到新窗口?</resource>
+    <resource name="Widget_UserPref_TitleToolTips_DisplayName">链接提示信息</resource>
+    <resource name="Widget_UserPref_DisplayCount_DisplayName">显示多少条？</resource>
+    <resource name="Widget_UserPref_SortBy_DisplayName">排序依据</resource>
+    <resource name="Widget_UserPref_CommendTypeID_DisplayName">推荐类别ID</resource>
+    <resource name="Widget_UserPref_ThreadID_DisplayName">投票ThreadID</resource>
+    <resource name="Widget_UserPref_hasBorder_DisplayName">是否有边框</resource>
+    <resource name="Widget_UserPref_shareCategoryID_DisplayName">站外分享类别ID</resource>
+    <resource name="Widget_UserPref_applicationID_DisplayName">应用ID</resource>
+    <resource name="Widget_UserPref_isSolve_DisplayName">是否解决</resource>
+
+    <resource name="Widget_modulePrefs_HtmlWidget_Name">自定义Html模块</resource>
+    <resource name="Widget_modulePrefs_HtmlWidget_DefaultValue">widget标题</resource>
+    <resource name="Widget_modulePrefs_ListClubsHomeBlock_Name">群组列表</resource>
+    <resource name="Widget_modulePrefs_ListClubsHomeBlock_DefaultValue">最新群组</resource>
+    <resource name="Widget_modulePrefs_ListEventsHomeBlock_Name">活动列表</resource>
+    <resource name="Widget_modulePrefs_ListHotForumThreadsBlock_Name">热点论坛主题</resource>
+    <resource name="Widget_modulePrefs_ListIconShareThreadsBlock_Name">热门图标分享</resource>
+    <resource name="Widget_modulePrefs_ListIconShareThreadsBlock_DefaultValue">热门用户分享</resource>
+    <resource name="Widget_modulePrefs_ListLastestForumThreadsBlock_Name">最新帖子</resource>
+    <resource name="Widget_modulePrefs_ListNewsSildeBlock_Name">焦点资讯</resource>
+    <resource name="Widget_modulePrefs_ListRewardThreadBlock_Name">待解决问题</resource>
+    <resource name="Widget_modulePrefs_ListStickyBlogThreadsBlock_Name">最新文章</resource>
+    <resource name="Widget_modulePrefs_ListStickyFilesBlock_Name">最新文件</resource>
+    <resource name="Widget_modulePrefs_ListStickyPhotosBlock_Name">最新照片</resource>
+    <resource name="Widget_modulePrefs_ListStickyShareThreadsBlock_Name">热门头条分享</resource>
+    <resource name="Widget_modulePrefs_ListStickyShareThreadsBlock_DefaultValue">热门网址分享</resource>
+    <resource name="Widget_modulePrefs_ListThumbnailShareThreadsBlock_Name">热门图片分享</resource>
+    <resource name="Widget_modulePrefs_ListVideoShareThreadsBlock_Name">热门视频分享</resource>
+    <resource name="Widget_modulePrefs_LoginInSample_Name">会员登录</resource>
+    <resource name="Widget_modulePrefs_RecommendBlogThreadBlock_Name">推荐博文</resource>
+    <resource name="Widget_modulePrefs_RecommendClubBlock_Name">推荐群组</resource>
+    <resource name="Widget_modulePrefs_RecommendEventBlock_Name">推荐活动</resource>
+    <resource name="Widget_modulePrefs_RecommendFileBlock_Name">推荐文件</resource>
+    <resource name="Widget_modulePrefs_RecommendPhotoSlideBlock_Name">推荐照片</resource>
+    <resource name="Widget_modulePrefs_RecommendPhotoAlbumBlock_Name">推荐相册</resource>
+    <resource name="Widget_modulePrefs_RecommendUserBlock_Name">推荐用户</resource>
+    <resource name="Widget_modulePrefs_RecommendUserBlock_DisplayName">空间之星</resource>
+    <resource name="Widget_modulePrefs_ShowVoteThreadBlock_Name">单个投票</resource>
+    <resource name="Widget_modulePrefs_ShowVoteThreadBlock_DisplayName">请修改此投票标题</resource>
+
+    <resource name="Widget_modulePrefs_ClubDomainLinks_Name">群组友情链接</resource>
+    <resource name="Widget_modulePrefs_ClubGuestbookBlock_Name">留言板</resource>
+    <resource name="Widget_modulePrefs_ClubOwner_Name">群管理员</resource>
+    <resource name="Widget_modulePrefs_ClubPlacard_Name">群组公告</resource>
+    <resource name="Widget_modulePrefs_ClubStatisticsBlock_Name">群组资料</resource>
+    <resource name="Widget_modulePrefs_HotTags_Name">热门标签</resource>
+    <resource name="Widget_modulePrefs_LastVisitClubMembers_Name">最近访客</resource>
+    <resource name="Widget_modulePrefs_ListClubActivitiesBlock_Name">群组动态</resource>
+    <resource name="Widget_modulePrefs_ListClubAssistants_Name">圈副</resource>
+    <resource name="Widget_modulePrefs_ListEventsBlock_Name">最新活动</resource>
+    <resource name="Widget_modulePrefs_ListForumThreadsBlock_Name">最新话题</resource>
+    <resource name="Widget_modulePrefs_ListShareContentsBlock_Name">最新分享</resource>
+    <resource name="Widget_modulePrefs_ListVoteThreadsBlock_Name">最新投票</resource>
+    <resource name="Widget_UserPref_shortcutName_defaultValue_SeeAllLeave">查看所有留言</resource>
+
+    <resource name="Widget_modulePrefs_BestConnectPath_Name">你们之间的连接路</resource>
+    <resource name="Widget_modulePrefs_ListFriendsBlock_Name">朋友</resource>
+    <resource name="Widget_modulePrefs_BothFriendsBlock_Name">共同好友</resource>
+    <resource name="Widget_modulePrefs_ListVisitorBlock_Name">最近访客</resource>
+    <resource name="Widget_modulePrefs_PersonAction_Name">用户头像及操作</resource>
+    <resource name="Widget_modulePrefs_PersonStaticsBlock_Name">个人统计</resource>
+    <resource name="Widget_modulePrefs_SelfAppraisal_Name">个人介绍</resource>
+    <resource name="Widget_modulePrefs_ShowProfile_Name">个人资料</resource>
+    <resource name="Widget_modulePrefs_ShowVoteThreadBlock_Name">投票</resource>
+    <resource name="Widget_modulePrefs_UserActivitiesBlock_Name">个人动态</resource>
+    <resource name="Widget_modulePrefs_UserFriendlyUrl_Name">空间网址</resource>
+    <resource name="Widget_modulePrefs_UserLink_Name">友情链接</resource>
+    <resource name="Widget_UserPref_shortcutName_defaultValue_More">更多</resource>
+    <resource name="Widget_UserPref_shortcutName_defaultValue_Edit">编辑</resource>
+    <resource name="Widget_UserPref_shortcutName_defaultValue_Manage">管理</resource>
+
+
+
+    <resource name="Widget_modulePrefs_PersonUserTags_Name">标签</resource>
+
+
+    <!-- Widget End -->
+
+    <!-- Exceptions Start-->
+    <resource name = "Exception_Pattern_ForumGroupNotFound">讨论组 {0} 不存在。</resource>
+    <resource name = "Exception_Pattern_PresentAreaNotFound">PresentAreaID为{0}的表现区域未找到</resource>
+    <resource name = "Exception_Pattern_ForumNotFound">版 {0} 不存在。</resource>
+    <resource name = "Exception_Pattern_UserNotFound">用户 {0} 不存在。</resource>
+    <resource name = "Exception_Pattern_PostNotFound">帖子 {0} 不存在，或者你没有访问的权限。</resource>
+    <resource name = "Exception_SkinNotSet">"SkinFileName" 属性必须设置。</resource>
+    <resource name = "Exception_Pattern_SkinNotFound">皮肤文件: '{0}' 未找到。</resource>
+    <resource name = "Exception_PostAccessDenied">没有访问帖子的权限。</resource>
+    <resource name = "Exception_PostEditAccessDenied">没有修改帖子的权限。</resource>
+    <resource name = "Exception_PostEditPermissionExpired">修改帖子许可期满。</resource>
+    <resource name = "Exception_Pattern_PostInvalidAttachmentType">您的帖子已经保存，但附件未上传，因您所上传的附件类型({0})不在论坛规定的附件类型范围内。</resource>
+    <resource name = "Exception_Pattern_PostAttachmentTooLarge">您的帖子已经保存，但附件未上传，因为论坛规定上传的附件不得超过 {0} KB。</resource>
+    <resource name = "Exception_Pattern_ResourceManagerStringNotFound">未能在 "resouces.xml" 文件中找到: '{0}' 。</resource>
+    <resource name = "Exception_Pattern_ResourceManagerErrorMessageNotFound">未能在 "messages.xml" 文件中找到： '{0}'。</resource>
+    <resource name = "Exception_AdminSetHighLimit">只有管理员才有设置精华的权限！</resource>
+    <resource name = "Exception_Pattern_UserDomainNotFind">{0}的用户空间未找到</resource>
+    <resource name="Exception_Pattern_RecommendationTypeNotFound">只有管理员才有权限推荐</resource>
+    <resource name="Exception_Pattern_StatisticsNavigationSelectorArgumentError">输入参数getStatisticssUrl=“{0}”或maxDepth=“{1}”有误</resource>
+    <resource name="Exception_Pattern_ManageWidgetInstancePermissionRefused">你没有管理 WidgetInstance:“{0}” 的权限</resource>
+    <resource name="Exception_Pattern_CreateWidgetInstancePermissionRefused">你没有管理 Owner:“{0}” 自定义页面 的权限</resource>
+    <resource name="Exception_UpdatePageLayoutPermissionRefused">你没有更新该页面版式的权限</resource>
+
+    <resource name="Exception_Pattern_RecommendedFailureTypeNotFound">推荐失败,ID为{0}的推荐类别不存在</resource>
+    <resource name="Exception_RecommendedFailureTypeID">推荐失败,推荐类型ID必须大于0</resource>
+    <resource name="Exception_RecommendedSucecssCacheShow">推荐成功，但可能因为输出缓存的原因大约需要5分钟才能显示</resource>
+    <resource name="Exception_RecommendedFailure">推荐失败</resource>
+    <!-- Exceptions End -->
+
+    <!--Validates Start-->
+    <resource name = "Validate_Pattern_UserNameMinLengthViolated">用户名最短不能低于{0}个字符</resource>
+    <resource name = "Validate_Pattern_UserNameMaxLengthViolated">用户名最长不能多于{0}个字符</resource>
+    <resource name = "Validate_UserNameRegexViolated">您输入的用户名格式不正确</resource>
+    <resource name = "Validate_UserNameIsDisallowedViolated">该用户名不允许被使用，请选择其他名字后再试，注意不要包含敏感字词</resource>
+    <resource name = "Validate_UserNameIsExistingViolated">该用户名已被占用，请更换用户名重试</resource>
+    <resource name = "Validate_RequiredPasswordViolated">密码不能为空</resource>
+    <resource name = "Validate_Pattern_MinRequiredPasswordLengthViolated">密码长度不能少于 {0} 个字符</resource>
+    <resource name = "Validate_Pattern_MinRequiredNonAlphanumericCharactersViolated">您的密码中非数字、字符太少，请至少输入 {0} 个非数字、字符（如：*、$等）</resource>
+    <resource name = "Validate_PasswordRegexViolated">您输入的密码格式不正确</resource>
+    <resource name = "Validate_FillInCommentBody">请填写评论内容</resource>
+    <resource name = "Validate_Pattern_CommentBodyMaxLength">评论内容最长不能超过{0}字</resource>
+    <resource name = "Validate_FillInValidate">请填写验证码</resource>
+    <resource name = "Validate_InputPassword">请输入密码</resource>
+    <resource name = "Validate_SelectFileOnload">请选择文件再进行上传</resource>
+    <resource name = "Validate_InputTitle">请输入标题</resource>
+    <resource name = "Validate_SortOrderRequired">请填写排序序号</resource>
+    <resource name = "Validate_SortOrderDigits">请输入整数</resource>
+    <resource name = "Validate_CommendNameRequired">请填写主题内容</resource>
+    <!--Validates End-->
+
+    <!-- Image Metadata Start -->
+    <resource name="Metadata:Sub-Sec Time Digitized">Sub-Sec Time Digitized</resource>
+    <resource name="Metadata:Sub-Sec Time Original">Sub-Sec Time Original</resource>
+    <resource name="Metadata:Sub-Sec Time">Sub-Sec Time</resource>
+    <resource name="Metadata:User Comment">User Comment</resource>
+    <resource name="Metadata:Maker Note">Maker Note</resource>
+    <resource name="Metadata:Exposure Time">曝光时间</resource>
+    <resource name="Metadata:Copyright">Copyright</resource>
+    <resource name="Metadata:Self Timer Mode">Self Timer Mode</resource>
+    <resource name="Metadata:Time Zone Offset">Time Zone Offset</resource>
+    <resource name="Metadata:Interlace">Interlace</resource>
+    <resource name="Metadata:CFA Pattern">CFA Pattern</resource>
+    <resource name="Metadata:CFA Repeat Pattern Dim">CFA Repeat Pattern Dim</resource>
+    <resource name="Metadata:GPS Info">GPS Info</resource>
+    <resource name="Metadata:Spectral Sensitivity">Spectral Sensitivity</resource>
+    <resource name="Metadata:Exposure Program">曝光程序</resource>
+    <resource name="Metadata:Interoperability Offset">Interoperability Offset</resource>
+    <resource name="Metadata:Related Sound File">Related Sound File</resource>
+    <resource name="Metadata:Exif Image Height">图像高度</resource>
+    <resource name="Metadata:Exif Image Width">图像宽度</resource>
+    <resource name="Metadata:FlashPix Version">FlashPix版本</resource>
+    <resource name="Metadata:Windows XP Subject">Windows XP Subject</resource>
+    <resource name="Metadata:Windows XP Keywords">Windows XP Keywords</resource>
+    <resource name="Metadata:Windows XP Author">Windows XP Author</resource>
+    <resource name="Metadata:Windows XP Comment">Windows XP Comment</resource>
+    <resource name="Metadata:Windows XP Title">Windows XP Title</resource>
+    <resource name="Metadata:Subject Distance Range">Subject Distance Range</resource>
+    <resource name="Metadata:Device Setting Description">Device Setting Description</resource>
+    <resource name="Metadata:Sharpness">Sharpness</resource>
+    <resource name="Metadata:Saturation">Saturation</resource>
+    <resource name="Metadata:Contrast">Contrast</resource>
+    <resource name="Metadata:Gain Control">Gain Control</resource>
+    <resource name="Metadata:Scene Capture Type">Scene Capture Type</resource>
+    <resource name="Metadata:Focal Length 35">Focal Length 35</resource>
+    <resource name="Metadata:Digital Zoom Ratio">Digital Zoom Ratio</resource>
+    <resource name="Metadata:White Balance">White Balance</resource>
+    <resource name="Metadata:Exposure Mode">Exposure Mode</resource>
+    <resource name="Metadata:Custom Rendered">Custom Rendered</resource>
+    <resource name="Metadata:Sensing Method">Sensing Method</resource>
+    <resource name="Metadata:Exposure Index">Exposure Index</resource>
+    <resource name="Metadata:Subject Location">Subject Location</resource>
+    <resource name="Metadata:CFA Pattern">CFA Pattern</resource>
+    <resource name="Metadata:Scene Type">Scene Type</resource>
+    <resource name="Metadata:File Source">源文件</resource>
+    <resource name="Metadata:Focal Plane Resolution Unit">分辨率单位</resource>
+    <resource name="Metadata:Focal Plane Y Resolution">X方向分辨率</resource>
+    <resource name="Metadata:Focal Plane X Resolution">Y方向分辨率</resource>
+    <resource name="Metadata:Spatial Frequency Response">Spatial Frequency Response</resource>
+    <resource name="Metadata:Flash Energy">Flash Energy</resource>
+    <resource name="Metadata:TIFF/EP Standard ID">TIFF/EP Standard ID</resource>
+    <resource name="Metadata:Exposure Index">Exposure Index</resource>
+    <resource name="Metadata:Subject Location">Subject Location</resource>
+    <resource name="Metadata:Image History">Image History</resource>
+    <resource name="Metadata:Security Classification">Security Classification</resource>
+    <resource name="Metadata:Image Number">Image Number</resource>
+    <resource name="Metadata:JPEG Tables">JPEG Tables</resource>
+    <resource name="Metadata:Noise">Noise</resource>
+    <resource name="Metadata:Spatial Frequency Response">Spatial Frequency Response</resource>
+    <resource name="Metadata:Transfer Range">Transfer Range</resource>
+    <resource name="Metadata:Focal Length">焦距</resource>
+    <resource name="Metadata:OECF">OECF</resource>
+    <resource name="Metadata:ISO Speed Ratings">感光度</resource>
+    <resource name="Metadata:Metering Mode">测光方式</resource>
+    <resource name="Metadata:Subject Distance">Subject Distance</resource>
+    <resource name="Metadata:Max Aperture Value">最大光圈</resource>
+    <resource name="Metadata:Exposure Bias Value">曝光补偿</resource>
+    <resource name="Metadata:Brightness Value">Brightness Value</resource>
+    <resource name="Metadata:Aperture Value">Aperture Value</resource>
+    <resource name="Metadata:Shutter Speed Value">Shutter Speed Value</resource>
+    <resource name="Metadata:Color Space">色域</resource>
+    <resource name="Metadata:Sub IFDs">Sub IFDs</resource>
+    <resource name="Metadata:Thumbnail Offset">Thumbnail Offset</resource>
+    <resource name="Metadata:Artist">作者</resource>
+    <resource name="Metadata:Tile Byte Counts">Tile Byte Counts</resource>
+    <resource name="Metadata:Tile Offsets">Tile Offsets</resource>
+    <resource name="Metadata:Tile Length">Tile Length</resource>
+    <resource name="Metadata:Tile Width">Tile Width</resource>
+    <resource name="Metadata:Flash Energy">Flash Energy</resource>
+    <resource name="Metadata:Primary Chromaticities">Primary Chromaticities</resource>
+    <resource name="Metadata:White Point">White Point</resource>
+    <resource name="Metadata:Predictor">Predictor</resource>
+    <resource name="Metadata:Compressed Bits Per Pixel">压缩程度</resource>
+    <resource name="Metadata:Components Configuration">图像构造</resource>
+    <resource name="Metadata:Y Resolution">Y方向分辨率</resource>
+    <resource name="Metadata:Transfer Function">Transfer Function</resource>
+    <resource name="Metadata:F-Number">光圈系数</resource>
+    <resource name="Metadata:JPEG Proc">JPEG Proc</resource>
+    <resource name="Metadata:Resolution Unit">分辨率单位</resource>
+    <resource name="Metadata:Date/Time">Date/Time</resource>
+    <resource name="Metadata:Software">软件</resource>
+    <resource name="Metadata:Strip Offsets">Strip Offsets</resource>
+    <resource name="Metadata:X Resolution">X方向分辨率</resource>
+    <resource name="Metadata:Date/Time Digitized">数字化时间</resource>
+    <resource name="Metadata:Date/Time Original">创建时间</resource>
+    <resource name="Metadata:Flash">是否使用闪光灯</resource>
+    <resource name="Metadata:Exif Version">Exif版本</resource>
+    <resource name="Metadata:Battery Level">Battery Level</resource>
+    <resource name="Metadata:Planar Configuration">Planar Configuration</resource>
+    <resource name="Metadata:Reference Black/White">Reference Black/White</resource>
+    <resource name="Metadata:YCbCr Positioning">色相定位</resource>
+    <resource name="Metadata:YCbCr Sub-Sampling">YCbCr Sub-Sampling</resource>
+    <resource name="Metadata:YCbCr Coefficients">YCbCr Coefficients</resource>
+    <resource name="Metadata:Strip Byte Counts">Strip Byte Counts</resource>
+    <resource name="Metadata:Page Name">Page Name</resource>
+    <resource name="Metadata:Orientation">方向</resource>
+    <resource name="Metadata:Thresholding">Thresholding</resource>
+    <resource name="Metadata:Model">型号</resource>
+    <resource name="Metadata:Maximum sample value">Maximum sample value</resource>
+    <resource name="Metadata:Minimum sample value">Minimum sample value</resource>
+    <resource name="Metadata:Document Name">Document Name</resource>
+    <resource name="Metadata:Rows Per Strip">Rows Per Strip</resource>
+    <resource name="Metadata:Samples Per Pixel">Samples Per Pixel</resource>
+    <resource name="Metadata:Light Source">光源</resource>
+    <resource name="Metadata:Thumbnail Length">Thumbnail Length</resource>
+    <resource name="Metadata:Related Image Length">Related Image Length</resource>
+    <resource name="Metadata:Related Image Width">Related Image Width</resource>
+    <resource name="Metadata:Related Image File Format">Related Image File Format</resource>
+    <resource name="Metadata:Make">生产厂家</resource>
+    <resource name="Metadata:Image Description">图像描述</resource>
+    <resource name="Metadata:Compression">压缩比</resource>
+    <resource name="Metadata:Thumbnail Image Height">Thumbnail Image Height</resource>
+    <resource name="Metadata:Fill Order">Fill Order</resource>
+    <resource name="Metadata:IPTC/NAA">IPTC/NAA</resource>
+    <resource name="Metadata:Photometric Interpretation">Photometric Interpretation</resource>
+    <resource name="Metadata:Inter Color Profile">Inter Color Profile</resource>
+    <resource name="Metadata:Bits Per Sample">Bits Per Sample</resource>
+    <resource name="Metadata:Thumbnail Data">Thumbnail Data</resource>
+    <resource name="Metadata:Thumbnail Image Width">Thumbnail Image Width</resource>
+    <resource name="Metadata:Subfile Type">Subfile Type</resource>
+    <resource name="Metadata:New Subfile Type">New Subfile Type</resource>
+    <resource name="Metadata:Exif Offset">Exif信息位置</resource>
+    <resource name="Metadata:Component 4">Component 4</resource>
+    <resource name="Metadata:Component 3">Component 3</resource>
+    <resource name="Metadata:Component 2">Component 2</resource>
+    <resource name="Metadata:Component 1">Component 1</resource>
+    <resource name="Metadata:Number of Components">Number of Components</resource>
+    <resource name="Metadata:Image Width">Image Width</resource>
+    <resource name="Metadata:Image Height">Image Height</resource>
+    <resource name="Metadata:Data Precision">Data Precision</resource>
+
+    <resource name="Metadata:AE Warning">AE Warning</resource>
+    <resource name="Metadata:Blur Warning">Blur Warning</resource>
+    <resource name="Metadata:Color">Color</resource>
+    <resource name="Metadata:Continuous Taking Or Auto Bracketting">Continuous Taking Or Auto Bracketting</resource>
+    <resource name="Metadata:Flash Mode">Flash Mode</resource>
+    <resource name="Metadata:Flash Strength">Flash Strength</resource>
+    <resource name="Metadata:Focus Mode">Focus Mode</resource>
+    <resource name="Metadata:Focus Warning">Focus Warning</resource>
+    <resource name="Metadata:Interoperability Index">Interoperability Index</resource>
+    <resource name="Metadata:Macro">Macro</resource>
+    <resource name="Metadata:Picture Mode">Picture Mode</resource>
+    <resource name="Metadata:Quality">Quality</resource>
+    <resource name="Metadata:Slow Synchro">Slow Synchro</resource>
+
+    <!--通用控件 Start -->
+    <resource name = "Title_ListFavoriteUsers">都是有谁收藏过</resource>
+    <resource name="Title_NewImpeachReport">我要举报</resource>
+    <resource name="Title_SelectCategory">选择分类</resource>
+    <resource name="Title_Caption">自定义设置</resource>
+    <resource name="Title_ThemeAppearance">风格</resource>
+    <resource name="Title_LayoutMode">布局</resource>
+    <resource name="Title_Widget">模块</resource>
+    <resource name="Title_MyPhotos">我的照片</resource>
+    <resource name="Title_MyFiles">我的文件</resource>
+    <resource name="Title_MyBlogAttachments">博客附件</resource>
+
+    <resource name="Action_RestoreDefaultSettings">恢复默认布局</resource>
+    <resource name="Action_Exit">保存装扮</resource>
+    <resource name="Action_InsertHtmlEditer">插入编辑器</resource>
+
+    <resource name="Label_PrivacyStatus">浏览权限</resource>
+    <resource name="Label_ImpeachReason">举报原因</resource>
+    <resource name="Label_Remark">附加说明</resource>
+    <resource name="Label_ViewByCategory">按分类查看</resource>
+    <resource name="Label_ViewByPhotoCategory">按相簿查看</resource>
+    <resource name="Label_PhotoSize">照片显示尺寸</resource>
+    <resource name="Label_PhotoLink">照片链接</resource>
+    <resource name="Label_NoNews">没有最新动态</resource>
+    <resource name="Label_PeopleVisit">被访问{0}次</resource>
+    <resource name="Description_VeryPoor">很差</resource>
+    <resource name="Description_Poor">较差</resource>
+    <resource name="Description_General">一般</resource>
+    <resource name="Description_Good">不错</resource>
+    <resource name="Description_VeryGood">很好</resource>
+    <resource name="Description_FavoriteItemName">此操作将会将该{0}添加到你关注列表中，你可以进入空间{1}页查看它们</resource>
+    <resource name="Description_FavoritePrivacyStatus">并可以设置不同的浏览权限，控制那些人可以看到这次关注</resource>
+    <resource name="Description_FavoriteForYourself">自己收藏</resource>
+    <resource name="Description_None">暂无</resource>
+    <resource name="Description_AllUserCategory">所有分类</resource>
+    <resource name="Description_AllPhotoCategory">所有相簿</resource>
+    <resource name="Description_Pattern_ThumbnailX">缩略图(尺寸:{0}px)</resource>
+    <resource name="Description_Pattern_SecondaryThumbnailX">小型图(尺寸:{0}px)</resource>
+    <resource name="Description_Pattern_PictureDetailsX">中型图(尺寸:{0}px)</resource>
+    <resource name="Description_Pattern_LargeX">大型图(尺寸:{0}px)</resource>
+
+    <resource name="Description_NoSearchResultBody1">搜索提示：</resource>
+    <resource name="Description_NoSearchResultBody2">请确保搜索文字拼写正确。</resource>
+    <resource name="Description_NoSearchResultBody3">请尝试使用其他关键词或使用近义词。</resource>
+    <resource name="Description_NoSearchResultBody4">请尝试使用含义更为宽泛的关键词。</resource>
+    <resource name="Description_NoSearchResultBody5">请确保查询条件尽可能精确。</resource>
+
+    <resource name="Enum_ImpeachReason_Reactionary">内容反动</resource>
+    <resource name="Enum_ImpeachReason_Sexy">内容色情</resource>
+    <resource name="Enum_ImpeachReason_Tortious">内容侵权</resource>
+    <resource name="Enum_ImpeachReason_Spam">垃圾广告</resource>
+    <resource name="Enum_ImpeachReason_Other">其他</resource>
+    <resource name="Enum_GalleryImageLinkType_NoLink">不链接</resource>
+    <resource name="Enum_GalleryImageLinkType_Details">照片详细显示</resource>
+    <resource name="Enum_GalleryImageLinkType_Original">原始图</resource>
+
+    <resource name="Validate_UserEmail_Sucess">邮箱正确</resource>
+    <resource name="Validate_UserEmail_Required">请输入邮箱地址</resource>
+    <resource name="Validate_UserEmail_EmailFormat">邮箱地址不正确</resource>
+    <resource name="Validate_ImpeachReason_Required">请选择举报原因</resource>
+    <resource name="Validate_Pattern_Remark_Maxlength">最多不能超过{0}字</resource>
+    <!--通用控件 End -->
+
+    <resource name="Title_Profile">个人档</resource>
+    <resource name="Button_ShowMore">显示更多</resource>
+    <resource name="Lable_Select">筛选</resource>
+    <resource name="Action_HasDeal">已处理</resource>
+    <resource name="Action_NotDeal">未处理</resource>
+    <resource name="Lable_your">您</resource>
+    <resource name="Lable_Add">和</resource>
+    <resource name="Lable_IsRegisterUser">是否已注册</resource>
+    <resource name="Message_PleaseClickToInsertThePictureSelected">请先点击选中所要插入的图片</resource>
+    <resource name="Message_PleaseClickToInsertTheAttachmentSelected">请先点击选中所要插入的附件</resource>
+    <resource name="Lable_PictureUrl">图片网址</resource>
+    <resource name="Lable_CopyingPicturesUrl">你可以在目标图片上右键选择“复制图片网址”</resource>
+    <resource name="Lable_PictureDetails">图片说明</resource>
+    <resource name="Lable_FromTheNetworkAddress">从网络地址</resource>
+    <resource name="Lable_PleaseInputKeyword">请输入关键字</resource>
+
+    <resource name="Description_Pattern_OnlyAllowFriendView">仅好友可见</resource>
+    <resource name = "Title_SelectedADPosition">投放的广告区域</resource>
+
+</root>
